@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'Meeting-iOS_Example' do
+  pod 'Meeting-iOS', :path => '../'
+
+  target 'Meeting-iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
