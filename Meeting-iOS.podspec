@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Meeting-iOS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Meeting-iOS.'
+  s.summary          = 'Lib of Meeting-iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Meeting iOS
                        DESC
 
-  s.homepage         = 'https://github.com/杜甲/Meeting-iOS'
+  s.homepage         = 'https://github.com/hicodeboy/Meeting-iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '杜甲' => '815319775@qq.com' }
-  s.source           = { :git => 'https://github.com/杜甲/Meeting-iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hicodeboy/Meeting-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Meeting-iOS/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Meeting-iOS' => ['Meeting-iOS/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'Meeting-iOS' => ['Meeting-iOS/Assets/*.png']
+   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.public_header_files = 'Meeting-iOS/Classes/**/*.h'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
